@@ -1,0 +1,64 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* empêche le défilement sur l'axe horizontal*/
+}
+
+.background-image {
+    background-image: url('pageaccueil.jpg');
+    background-size: cover; /*ajuste l'image pour couvrir toute la page*/
+    background-repeat: no-repeat; /*pas de répétition de l'image*/
+    height: 100%;
+    z-index: 1;
+}   
+
+.logoquantic {
+    position:absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    z-index: 3;
+    margin-left: 50px;
+}
+
+.navbar {
+    background-color: black;
+    text-align: center;
+    margin-right: 700px;
+}
+
+
+/* first-child = logo QV */
+div.logoquantic img:first-child {
+    margin-right: 15px !important; 
+ }
+
+.logoquantic img {
+    max-width: 950px;
+    width: auto;
+    height: auto;
+}
+
+.slogan {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    font-size: 30px;
+    font-family:Barlow Condensed, sans-serif;
+    color: white;
+    text-align: center;
+    z-index: 3;
+}
+
+#texte1 {
+    text-align: center;
+    font-weight:500;    
+}
+
+
+
+
+
+
+
