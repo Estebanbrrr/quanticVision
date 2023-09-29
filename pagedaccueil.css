@@ -23,9 +23,15 @@ body, html {
 }
 
 .navbar {
+    text-decoration: none;
     background-color: black;
     text-align: center;
     margin-right: 700px;
+    color: black
+}
+
+a:hover {
+    color: gray;
 }
 
 
