@@ -1,7 +1,7 @@
 Lien : https://estebanbrrr.github.io/Quantic-dream/
 # Titre sujet   
 
-## Quanitc Dream    
+## Quantic Dream    
 
 
 
