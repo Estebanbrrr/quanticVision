@@ -49,4 +49,26 @@ body, html {
     background-color: darkblue;
     color: white;
   }
+
+.slogan {
+    color: #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Louis George Café', sans-serif;
+}
+
+#trait {
+    color: #ddd;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 1px;
+}
+
+#texteIntroductif {
+  text-align: center;
+  font-size: 25px;
+}
   
