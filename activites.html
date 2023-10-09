@@ -1,57 +1,81 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" id="top">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quantic Vision - Activités</title>
     <link rel="icon" href="images/qv.ico" />
-    <style>
-        a{
-            text-decoration: none;
-            margin-right: 60px;
-            margin-left: 60px;
-            font-size: 20px;
-            font-family: Arial, Helvetica, sans-serif;
-            color: black;
-        }
-        nav{
-            margin-top: 20px;
-            margin-bottom: 60px;
-            text-align: center;
-        }
+    <link rel="stylesheet" href="activitestyle.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 
-        a:hover{
-            color: gray;
-        }
+    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/louis-george-cafe" rel="stylesheet">
 
-        footer {
-            text-align: center;
-            font-size: 18px;
-        }
-    </style>
+<script>
+            jQuery(function(){
+                $(function () {
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() > 200 ) { 
+                            $('#scrollUp').css('right','10px');
+                        } else { 
+                            $('#scrollUp').removeAttr( 'style' );
+                        }
+ 
+                    });
+                });
+            });
+</script>
 </head>
 <body>
-
+    <hr>
+    <div class="degrade-diagonal"></div>
     <nav>
         <a href="index.html">Page d'accueil</a>
         <a href="produits.html">Produits</a>
         <a href="economie.html">Économie</a>
         <a href="ecologie.html">Écologie</a>
         <a href="activites.html">Activités</a>
-        <a href="apropos.html">À propos</a>
-        
+        <a href="apropos.html">À propos</a>    
     </nav>
     <hr>
-    <h1>Information sur les différents secteurs d'activité de Quantic Dream</h1>
-    <h3>Édition :</h3>
-    <p>Pour encadrer les activités d'édition, Quantic Dream a lancé en 2019 Spotlight By Quantic Dream. Tirant leur expertise dans ce domaine de plus de 20 ans de collaboration étroite avec les éditeurs les plus prestigieux du secteur sur leurs propres titres AAA, et grâce à l'expérience des professionnels chevronnés qui les ont rejoints, leur ambition est : "Nous accompagner de la meilleure manière qui soit dans le cadre du développement de vos jeux et éditer avec passion vos œuvres auprès des joueurs du monde entier".</p>
+    <h1 id="titre">Information sur les différents secteurs d'activité de Quantic Dream</h1>
+    <h3 id="soustitre">Édition :</h3>
+    <p>
+        Pour encadrer les activités d'édition, Quantic Dream a lancé Spotlight By Quantic Dream en 2019. 
+        Forte de plus de 20 ans d'expertise acquise au travers d'une collaboration étroite avec les éditeurs 
+        les plus prestigieux du secteur, notamment sur leurs propres titres AAA, et grâce à l'expérience 
+        des professionnels chevronnés qui ont rejoint l'équipe, l'ambition de Quantic Dream est claire : 
+        "Nous sommes déterminés à vous accompagner de la meilleure manière qui soit dans le cadre du développement 
+        de vos jeux et à éditer avec passion vos œuvres auprès des joueurs du monde entier."
+    </p>
     <br>
-    <p1>En proposant des accords équitables entre joueurs et studios, en permettant aux développeurs de garder la propriété intellectuelle de leurs créations, Quantic Dream offre un support quotidien aux équipes de développement afin de leur permettre de pleinement réaliser le jeu vidéo de leurs rêves.</p1>
+    <p>
+        En proposant des accords équitables entre joueurs et studios, en permettant aux développeurs de garder la propriétée 
+        intellectuelle de leurs créations, Quantic Dream offre un support quotidien aux équipes de développement afin de leur 
+        permettre de pleinement réaliser le jeu vidéo de leurs rêves.
+    </p>
     <br>
     <br>
+    <hr>    
+    <br>
+    <h3 id="soustitre">Spotlight by Quantic Dream :</h3>
+    <p>
+        Spotlight by Quantic Dream, le label d'édition tiers du studio renommé Quantic Dream, 
+        apporte plus de 25 ans d'expertise au monde du développement de jeux. Depuis 2019, le 
+        label s'est engagé à collaborer avec des studios indépendants mondiaux pour concrétiser 
+        leurs projets.
+        <br> 
+        Offrant un éventail complet d'expertises, allant de la production à la 
+        narration, en passant par la capture de mouvement et la qualité sonore Dolby Atmos, 
+        Spotlight by Quantic Dream répond aux besoins variés des studios modernes. Leur logo 
+        sur un jeu est bien plus qu'une étiquette ; c'est une garantie de qualité, témoignant 
+        d'une sélection minutieuse et de la confiance en l'équipe créative qui le dirige.<br> Spotlight 
+        by Quantic Dream émerge comme un acteur clé, façonnant le paysage du développement de jeux avec 
+        son approche collaborative et son dévouement à l'innovation.
+        </p>
+        <br>
     <hr>
-    <br>
-    <h3>Service de Spotlight :</h3>
+    <h3 id="soustitre">Service de Spotlight :</h3>
     <ul>
         <li>Positionnement marketing et stratégies</li>
         <li>Relations publiques et presse</li>
@@ -65,10 +89,63 @@
         <li>Développement commercial</li>
         <li>Assistance juridique </li>
     </ul>
-    <h3>Motion capture :</h3>
-    <p2>Leurs studios de motion capture sont qualifiés comme les plus importants et les plus ava,cés technologiquement en Europe, situés en plein coeur de Paris.</p2>
+    <p id="titre">Jeux éditées par Spotlight by Quantic Dream :</p>
+    <div class="image-container">
+    <img width="564" height="317" src="maxresdefault.jpg"/>
+    <img width="564" height="317" src="1327031.jpeg"/>
+  
+  </div>
+
+<span>
+  <p class="text"><span style="color:khaki">À propos de Under The Waves :</span><br>
+        <br>Plates-formes : PlayStation 5, PlayStation 4, Xbox One, Microsoft Windows, Xbox Series
+        <br>Développeur : Parallel Studio
+        <br>Genres : Jeu d'aventure, Jeu vidéo indépendant
+        <br>Éditeur : Quantic Dream
+        <br>Mode : Solo
+        <br>Moteur : Unreal Engine</p>
+  <p class="text"><span style="color:khaki">À propos de Lysfanga :</span><br>
+    <br>Développeur : Sand Door Studio
+    <br>Plate-forme : Microsoft Windows
+    <br>Genres : Jeu d'action, Jeu vidéo indépendant, Strategy
+    <br>Éditeur : Quantic Dream</p>
     <br>
-    <p3>Donner vie à des personnages réalistes avec de vrais acteurs a été l'un des principes fondateurs de la narration de Quantic Dream. Créé en 2000, leur plateau de tournage interne permet à leurs équipes d'atteindre cet objectif en capturant jusqu'aux moindres détails chaque performance d'acteur. Cette façon de retranscrire avec une fidélité absolue toute la palette d'émotions a amené leurs jeux à toucher des audiences toujours plus larges.</p3>
+  </span>
+
+
+
+    <hr>
+    <h3 id="soustitre">Motion capture :</h3>
+    <p>
+        Leurs studios de motion capture sont qualifiés comme les plus importants et les plus ava,cés technologiquement en Europe, 
+        situés en plein coeur de Paris.</p>
+    <br>
+    <br>
+    <p>
+        Donner vie à des personnages réalistes avec de vrais acteurs a été l'un des principes fondateurs de la narration 
+        de Quantic Dream. Créé en 2000, leur plateau de tournage interne permet à leurs équipes d'atteindre cet objectif 
+        en capturant jusqu'aux moindres détails chaque performance d'acteur. Cette façon de retranscrire avec une fidélité 
+        absolue toute la palette d'émotions a amené leurs jeux à toucher des audiences toujours plus larges.</p>
+    <br>
+    <br>
+    <iframe width="564" height="317" allowfullscreen="" src="https://www.youtube.com/embed/OMlUndNXw1s"></iframe>
+ 
+    <iframe width="564" height="317" src="https://www.youtube.com/embed/Pg_x5HikcTk"></iframe>
+    <p>
+        Équipé d'une impressionnante configuration de 74 caméras optiques, notre studio est capable de capturer simultanément 
+        les voix et les expressions faciales et corporelles. Cette capacité permet d'atteindre une fidélité exceptionnelle 
+        lors de l'intégration d'une performance en une seule prise, répondant ainsi aux attentes des passionnés de jeux et 
+        de films en haute-définition qui recherchent des personnages 3D hyperréalistes.
+        <br>
+        <br>
+        Notre infrastructure de pointe, associée à notre vaste expérience et à une technologie brevetée, offre des avantages 
+        significatifs, tels que des temps de post-production considérablement réduits. De plus, notre approche permet d'obtenir 
+        des performances plus naturelles et fluides, en particulier dans le domaine de la capture faciale, qui se déroule sans 
+        recours à un casque encombrant. Explorez avec nous la convergence de la technologie et de la créativité pour donner vie à 
+        des expériences visuelles exceptionnelles.</p>
+    <div id="scrollUp">
+        <a href="#top"><img src="to_top.png"/></a>
+    </div>
 
 </body>
 <footer>
