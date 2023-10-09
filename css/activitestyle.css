@@ -1,0 +1,81 @@
+a{
+    text-decoration: none;
+    margin-right: 60px;
+    margin-left: 60px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+nav{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+a:hover{
+    color: gray;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+}
+
+#titre{
+    color:  #5fa9ee;
+}
+
+#soustitre{
+    color: red;
+}
+
+
+  html{
+    scroll-behavior: smooth;
+  }
+ 
+  #scrollUp
+  {
+  position: fixed;
+  bottom : 10px;
+  right: -100px;
+  opacity: 0.5;
+  }
+  @media (prefers-color-scheme: dark) {
+    body {
+    background-color: #1c1c1e;
+    color: #fefefe;
+    }
+    a {
+    color: #5fa9ee;
+    }
+    img {
+    filter: grayscale(20%);
+    }
+    }
+p{
+    text-align:left;
+    font-family: DM Sans;
+}
+
+h3 {
+    font-family: 'Louis George Café', sans-serif;
+}
+
+.image-container {
+    display: flex; /* Utilisation de Flexbox pour aligner les images côte à côte */
+}
+
+/* Style pour chaque image */
+.image-container img {
+    width: 50%; /* Pour que chaque image occupe la moitié de la largeur du conteneur */
+
+    margin: 5px; /* Marge entre les images */
+}
+
+#text{
+    display:flex;
+    margin:5px
+}
+
+
