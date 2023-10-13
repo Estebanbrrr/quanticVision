@@ -1,74 +1,128 @@
 body, html {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* empêche le défilement sur l'axe horizontal*/
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* empêche le défilement sur l'axe horizontal*/
 }
 
-#background-image {
-    background-image: url("../images/pageaccueil.jpg");
-    width: 100%;
-    height: 100%;
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#slide1 {
+  background-image: url("images/pageaccueil.jpg");
+  width: 100%;
+  height: 100%;
+}
+
+#slide2 {
+  background-image: url("images/slidedeux.jpg");
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
 .logocentral {
-    display: flex;
-    justify-content: center;
-    margin-top: 12%;    
+  display: flex;
+  justify-content: center; 
 }
 
 .topnav {
-    background-color: #333;
-    overflow: hidden;
-    text-align: center;
-    padding-bottom: 15px;
-    padding-top: 10px;
-    position: fixed;
-    top:0px;
-    right: 0px;
-    left: 0px;
-  }
-    
+  background-color: #333;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  position: fixed;
+  top:0px;
+  right: 0px;
+  left: 0px;
+}
+  
 .topnav a {
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    padding-left: 70px;
-    padding-right: 70px;
-    font-family: 'Louis George Café', sans-serif;
-  }
-    
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-family: 'Louis George Café', sans-serif;
+}
+  
 .topnav a:hover { 
-    background-color: #ddd;
-    color: gray;
-  }
-    
+  background-color: #ddd;
+  color: gray;
+}
+  
 .topnav a:active {
-    background-color: darkblue;
-    color: white;
-  }
+  background-color: darkblue;
+  color: white;
+}
 
 .slogan {
-    color: #ddd;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Louis George Café', sans-serif;
+  color: #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Louis George Café', sans-serif;
 }
 
 #trait {
-    color: #ddd;
-    display: flex;
-    justify-content: center;
-    font-size: 40px;
-    margin: 1px;
+  color: #ddd;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  margin: 1px;
 }
 
 #texteIntroductif {
-  text-align: center;
-  font-size: 25px;
+text-align: center;
+font-size: 25px;
 }
+
+#equipe {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+#leurEquipeTitre {
+  position: absolute;
+  color: #2f435e;
+  font-size: 83px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  margin-right: 1125px;
+  margin-bottom: 300px;
+}
+
+#leurEquipeTexte {
+  position: absolute;
+  color: white;
+  font-size: 50px;
+  font-family: 'Louis George Café', sans-serif;
+  margin-right: 1075px;
+  margin-top: 220px;
+
+}
+
+.prenomsEquipe {
+  color: white;
+  font-weight: 500;
+  font-size: 55px;
+  font-family: 'DM Sans', sans-serif;
+  margin-left: 560px;
+  margin-top: 575px;
+  z-index: 1;
+}
+
+#profession {
+  font-size: 45px;
+} 
+
   
