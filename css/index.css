@@ -30,6 +30,10 @@ body, html {
   justify-content: center; 
 }
 
+#logoQV {
+  margin-right: 30px;
+}
+
 .topnav {
   background-color: #333;
   overflow: hidden;
