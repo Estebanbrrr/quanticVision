@@ -1,8 +1,9 @@
 body{
-    background-color: black;
+    background-color: #201b2b;
     color: white;
     max-width: 100%;
     max-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a.nav{
@@ -51,7 +52,7 @@ img.image{
 
 div.imgequipe {
     width: 35%;
-    background-color: #04bbff;
+    background-color: #2f435e;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 5%;
     margin-top: 5%;
@@ -75,12 +76,12 @@ div.contenue {
 
 #benj {
     width: 35%;
-    background-color: #04bbff;
+    background-color: #2f435e;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
     border-radius: 5px 5px 0px 0px;
     position: relative;
-    left: 57%;
+    left: 65%;
 
 
 }
@@ -91,7 +92,7 @@ div.contenue {
     bottom: 100%;
     left: 0;
     right: 0;
-    background-color: #04bbff;
+    background-color: #44566C;
     overflow: hidden;
     width: 100%;
     height: 0;
@@ -107,7 +108,7 @@ div.contenue {
   
 .lien_equipe {
     white-space: nowrap; 
-    color: white;
+    color: #fefefe;
     font-size: 20px;
     position: absolute;
     overflow: hidden;
@@ -116,6 +117,12 @@ div.contenue {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-decoration: none;
+    background-color: #201b2b;
+    cursor: pointer;
+    border: 2px solid #ececec;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 25px;
 }
 
 
