@@ -58,6 +58,7 @@ div.imgequipe {
     margin-top: 5%;
     border-radius: 5px 5px 0px 0px;
     position: relative;
+    transition: transform .3s ease;
 }
 
 div.imgequipe:hover{
@@ -126,6 +127,43 @@ div.contenue {
 }
 
 
-.contenu1{
-    margin-top: -17%;
+.contenu_ar{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition:  .3s ease;
 }
+
+#premiere{
+    margin-top: -16%;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#deux{
+    transition: transform .3s ease;
+    margin-left: 50%;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+#trois{
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.contenu_ar:hover{
+    transition: transform .5s ease;
+    transform: scale(1.03);
+    
+}
+.contenu2:hover{
+    transition: .5s ease;
+    transform: scale(1.03); 
+    
+}
+
