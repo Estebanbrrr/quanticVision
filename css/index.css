@@ -135,7 +135,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
     margin-right: 1125px;
-    margin-bottom: 300px;
+    margin-bottom: 170px;
   }
   
   #leurEquipeTexte {
@@ -155,7 +155,7 @@
     font-size: 55px;
     font-family: 'DM Sans', sans-serif;
     margin-left: 560px;
-    margin-top: 570px;
+    margin-top: 530px;
     z-index: 1;
     transition: opacity 0.3s ease-in-out;
   }
@@ -168,7 +168,7 @@
     font-size: 55px;
     font-family: 'DM Sans', sans-serif;
     margin-left: 610px;
-    margin-top: 570px;
+    margin-top: 530px;
     z-index: 1;
     transition: opacity 0.3s ease-in-out;
   }
@@ -181,7 +181,7 @@
     font-size: 55px;
     font-family: 'DM Sans', sans-serif;
     margin-left: 590px;
-    margin-top: 570px;
+    margin-top: 530px;
     z-index: 1;
     transition: opacity 0.3s ease-in-out;
   }
