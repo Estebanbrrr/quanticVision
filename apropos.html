@@ -6,9 +6,12 @@
     <title>Quantic Vision - À propos</title>
     <link rel="icon" href="images/qv.ico" />
     <link rel="stylesheet" href="css/style_apropos.css">
+    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/louis-george-cafe" rel="stylesheet">
 </head>
 <body>
 
+  <div class="nav_bar">
     <nav>
         <a class="nav" href="index.html">Page d'accueil</a>
         <a class="nav" href="produits.html">Produits</a>
@@ -17,14 +20,15 @@
         <a class="nav" href="activites.html">Activités</a>
         <a class="nav" href="apropos.html">À propos</a>
     </nav>
-
+  </div>
       <div>
         <img class="apropos_img" src="images/apropos_menu.jpeg">
       </div>
+
       
       <div class="article1">
           <div class="contenu_ar" id="premiere">
-            <h2 class="titre1">Présentation de Quantic Dream</h2>
+            <h1 class="titre1">Qui est Quantic Dream ?</h1>
             <p class="para1">
               Fondée en 1997, Quantic Dream est un studio de développement de 
               jeux vidéo. Avec 26 ans d'expérience, cette Société Anonyme (SA) opère de 
@@ -44,7 +48,7 @@
           </div>
 
           <div class="contenu2" id="deux">
-            <h2 class="titre2">Services</h2>
+            <h1 class="titre2">Services</h1>
             <ul class="para2">
               <li>Production et développement de jeux-vidéos axés sur la narration et le choix du joueur<br></li>
               <li>Elle possède des savoir-faire dans le domaine de la narration interactive, la motion capture, 
@@ -56,8 +60,8 @@
             </ul>
           </div>
 
-          <div class="contenu_ar" id="trois">
-            <h2 class="titre3">Histoire de Quantic Dream</h2>
+          <div class="contenu_ar reveal" id="trois">
+            <h1 class="titre3">Quelle est son hisoitre</h1>
             <p class="para3">
               Le nom du studio, "Quantic Dream," combine la physique quantique et le rêve, reflétant 
               ainsi la fusion de la science, de la technologie et de la créativité, avec l'objectif 
@@ -68,11 +72,11 @@
             </p>
           </div>
 
-      <div class="contenu4">
+    <div class="contenu4 reveal">
         <h2 class="titre4">Équipe de Quantic Dream</h2>
-      </div>
+      
 
-      <div class="imgequipe">
+      <div class="imgequipe reveal">
         <img class="image" id="aurel" src="images/AURELIE-LE-CHEVALIER_01.jpg" style="width: 100%;">
 
         <div class="overlay">
@@ -85,7 +89,16 @@
 
       </div>
 
-      <div class="imgequipe" id="benj">
+      <div class="text_premiere reveal">
+        <p>
+          Quantic Dream, c’est avant tout un studio à échelle humaine, où chaque personne 
+          est un maillon crucial de la chaine de production. Autant de voix qui s’harmonisent 
+          pour créer une partition générale, avec en point d’orgue la diversité et la richesse 
+          des expériences qui s’entremêlent.  
+        </p>
+      </div>
+
+      <div class="imgequipe reveal" id="benj">
         <img class="image"  src="images/BENJAMIN-DIEBLING_01.jpg" style="width: 100%;">
 
         <div class="overlay">
@@ -98,8 +111,15 @@
 
       </div>
 
-
-      <div class="imgequipe">
+      <div class="text_deuxieme reveal">
+        <p>
+          Plusieurs clubs d’activité organisés par les salariés existent dans le studio, et 
+          permettent à ceux qui le souhaitent de se retrouver autour de différentes thématiques, 
+          comme l’escalade, la photographie, le potager de notre jardin, les tournois de jeux vidéo, 
+          les parties d’échecs ou la pâtisserie.
+        </p>
+      </div>
+      <div class="imgequipe reveal">
           <img class="image" src="images/catherine-esteves.jpg" style="width: 100%;">
 
           <div class="overlay">
@@ -110,17 +130,19 @@
             <h4>CATHERINE ESTEVES - ANIMATRICE 3D</h4>
           </div>
       </div>
+      <a class="autre_profil" href="nom_de_la_page.html">Découvrez d'autre profils de l'équipe de QuanticDream ici</a>
+
+    </div>
       
 
-      <a href="nom_de_la_page.html">Découvrez d'autre profils de l'équipe de QuanticDream ici</a>
+    
+    
 
 
-
-
-      <footer>
+      <footer class="footer">
           <hr>
           Esteban BARTHOD-MALAT
       </footer>
-
+      <script src="js/apropos.js"></script>
 </body>
 </html>

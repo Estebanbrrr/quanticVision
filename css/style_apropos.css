@@ -1,9 +1,11 @@
 body{
-    background-color: #201b2b;
+    background-color: black;
     color: white;
     max-width: 100%;
     max-height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Dm sans', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
 }
 
 a.nav{
@@ -14,6 +16,10 @@ a.nav{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     
+}
+
+h2{
+    font-family: 'Louis George Café', sans-serif;
 }
 
 nav{
@@ -27,6 +33,7 @@ a.nav:hover{
 }
 
 .apropos_img{
+    position: relative;
     width: 100%;
     clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
 }
@@ -39,7 +46,7 @@ footer {
 
 img.image{
     border-radius: 5px 5px 0px 0px;
-    width: 500px;
+    width: 100%;
 }
 
 
@@ -54,8 +61,7 @@ div.imgequipe {
     width: 35%;
     background-color: #2f435e;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 5%;
-    margin-top: 5%;
+    margin: 5% 0% 5% 3%;
     border-radius: 5px 5px 0px 0px;
     position: relative;
     transition: transform .3s ease;
@@ -99,7 +105,6 @@ div.contenue {
     height: 0;
     transition: .5s ease;
     border-radius: 5px 5px 0px 0px;
-    
 }
   
 .imgequipe:hover .overlay {
@@ -132,38 +137,89 @@ div.contenue {
     margin-top: 50px;
     margin-bottom: 50px;
     transition:  .3s ease;
+    text-align: justify;
 }
 
 #premiere{
-    margin-top: -16%;
-    width: 50%;
+    margin: -16% 20% 20% ;
     border-radius: 10px;
     padding: 10px;
+    background-color: #2f435e;
+    box-shadow: black 10px;
 }
 
+
+
+
 #deux{
-    transition: transform .3s ease;
-    margin-left: 50%;
-    width: 50%;
+
+    margin: -16% 20% 20%;
     border-radius: 10px;
     padding: 10px;
-    
+    text-align: justify;
+    background-color: #2f435e;
+    box-shadow: black 10px;
+   
 }
 
 #trois{
-    width: 50%;
+    margin: -16% 20% 20% ;
     border-radius: 10px;
     padding: 10px;
+    background-color: #2f435e;
+    box-shadow: black 10px;
 }
 
-.contenu_ar:hover{
-    transition: transform .5s ease;
-    transform: scale(1.03);
-    
-}
-.contenu2:hover{
-    transition: .5s ease;
-    transform: scale(1.03); 
-    
+div.contenu4{
+    margin: -10% 5% 5% 3%;
 }
 
+div.nav_bar{
+    background-color: black;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+  
+.footer{
+    background-color: #2f435e;
+}
+
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: .5s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+    transition: 0.5s all ease;
+  }
+
+  .text_premiere{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 50%;
+    top: 15%;
+    text-align: justify;
+  }
+
+
+  .text_deuxieme{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 45%;
+    text-align: justify;
+    margin: 5% 0% 5% 3%;
+  }
+
+  .autre_profil{
+    text-decoration: none;
+    color: white;
+  }
