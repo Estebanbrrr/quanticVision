@@ -17,4 +17,4 @@ Ce dépôt correspond à un site web créé en HTML/CSS/JS dans le cadre de la S
 
 ## Choix de la conception 
 
-Pour la conception du site, nous nous sommes inspirés de plusieurs templates comme celui d'[Aquavist](https://templatekit.jegtheme.com/aquavist/?storefront=envato-elements), ou encore celui d'[Inspiro Lite](https://demo.wpzoom.com/inspiro-lite/).
+Pour la conception du site, nous nous sommes inspirés de plusieurs templates comme celui d'[Aquavist](https://templatekit.jegtheme.com/aquavist/?storefront=envato-elements), ou encore celui d'[Inspiro Lite](https://demo.wpzoom.com/inspiro-lite/). Nous avons aussi pris comme référence, une charte graphique créé par nos soins et téléchargeable [ici]().
