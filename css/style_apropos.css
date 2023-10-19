@@ -88,7 +88,7 @@ div.contenue {
     margin-bottom: 25px;
     border-radius: 5px 5px 0px 0px;
     position: relative;
-    left: 65%;
+    left: 57%;
 
 
 }
@@ -141,37 +141,45 @@ div.contenue {
 }
 
 #premiere{
+    position: relative;
+    left: 35%;
+    width: 40%;
     margin: -16% 20% 20% ;
-    border-radius: 10px;
     padding: 10px;
-    background-color: #2f435e;
-    box-shadow: black 10px;
+    border-left: 10px solid #2f435e;
+    border-radius: 10px;
 }
 
 
 
 
 #deux{
-
-    margin: -16% 20% 20%;
-    border-radius: 10px;
+    position: relative;
+    left: 5%;
+    width: 40%;
     padding: 10px;
     text-align: justify;
-    background-color: #2f435e;
-    box-shadow: black 10px;
-   
+    border-right: 10px solid #2f435e;
+    border-radius: 10px;
 }
 
 #trois{
-    margin: -16% 20% 20% ;
-    border-radius: 10px;
+    position: relative;
+    top: 400px;
+    left: 55%;
+    width: 40%;
     padding: 10px;
-    background-color: #2f435e;
-    box-shadow: black 10px;
+    border-radius: 10px;
+    border-left: 10px solid #2f435e;
 }
 
-div.contenu4{
-    margin: -10% 5% 5% 3%;
+.contenu4{
+    position: relative;
+    top: 800px;
+    width: 100%;
+    height: auto;
+    margin: -10% 1% 1% 1%;
+
 }
 
 div.nav_bar{
@@ -182,9 +190,7 @@ div.nav_bar{
 }
 
   
-.footer{
-    background-color: #2f435e;
-}
+
 
 
 .reveal{
@@ -203,23 +209,90 @@ div.nav_bar{
   .text_premiere{
     position: absolute;
     width: 50%;
-    height: 50%;
+    height: auto;
     left: 50%;
     top: 15%;
+    padding: 10px;
     text-align: justify;
+    border-radius: 10px;
+    border-left: 10px solid #2f435e;
   }
 
 
   .text_deuxieme{
     position: absolute;
     width: 50%;
-    height: 50%;
-    top: 45%;
+    height: auto;
+    top: 40%;
+    padding: 10px;
     text-align: justify;
     margin: 5% 0% 5% 3%;
+    border-radius: 10px;
+    border-right: 10px solid #2f435e;
   }
 
   .autre_profil{
     text-decoration: none;
     color: white;
   }
+
+
+.slides {
+    position:  absolute;
+    width: 50%;
+    top: 0%;
+    height: 100vh;
+    gap: 50px;
+    z-index: -1;
+    filter: blur(5px);
+}
+
+#slide1 {
+    background: url(../images/building.jpg);
+    
+}
+
+.slides1 {
+    position:  absolute;
+    top: 100%;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    filter: blur(5px);
+}
+
+#slide2 {
+    background: url(../images/motion_captur.jpg);
+    
+}
+
+.slides2 {
+    position:  absolute;
+    top: 200%;
+    width: 50%;
+    height: 100vh;
+    filter: blur(5px);
+}
+
+#slide3 {
+    background: url(../images/histoire_quantic.jpg);
+    
+}
+
+.titre4{
+    position: relative;
+    text-align: center;
+    left: 35%;
+    border-bottom: 10px solid #2f435e;
+    border-radius: 10px;
+    width: 25%;
+}
+
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #2f435e;
+}
