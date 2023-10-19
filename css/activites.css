@@ -341,3 +341,18 @@ padding-left: 40px;
   margin-top: 2%;
 }
 
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: .5s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+  transition: 0.5s all ease;
+}
+#border{
+  border-bottom: 3px SOLID;
+  
+}
