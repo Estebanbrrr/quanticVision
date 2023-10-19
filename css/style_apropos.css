@@ -113,9 +113,6 @@ div.contenue {
 }
   
 .lien_equipe {
-    white-space: nowrap; 
-    color: #fefefe;
-    font-size: 20px;
     position: absolute;
     overflow: hidden;
     top: 50%;
@@ -123,12 +120,12 @@ div.contenue {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-decoration: none;
-    background-color: #201b2b;
     cursor: pointer;
-    border: 2px solid #ececec;
     border-radius: 5px;
     display: inline-block;
-    padding: 10px 25px;
+    height: 20%;
+    width: auto;
+    opacity: 1;
 }
 
 
