@@ -17,4 +17,36 @@ Ce dépôt correspond à un site web créé en HTML/CSS/JS dans le cadre de la S
 
 ## Choix de la conception 
 
-Pour la conception du site, nous nous sommes inspirés de plusieurs templates comme celui d'[Aquavist](https://templatekit.jegtheme.com/aquavist/?storefront=envato-elements), ou encore celui d'[Inspiro Lite](https://demo.wpzoom.com/inspiro-lite/). Nous avons aussi pris comme référence, une charte graphique créé par nos soins et téléchargeable [ici](doc/Style_tiles_QUANTICVISION.pdf).
+Pour la conception du site, nous nous sommes inspirés de plusieurs templates comme celui d'[Aquavist](https://templatekit.jegtheme.com/aquavist/?storefront=envato-elements), ou encore celui d'[Inspiro Lite](https://demo.wpzoom.com/inspiro-lite/). Nous avons aussi pris comme référence, une charte graphique créé par nos soins et téléchargeable [ici](doc/style_tiles.pdf).
+
+## Développement Site Web et Validation des pages
+
+### Page d'accueil
+
+**Auteur : VUILLIN Thomas**  
+
+Vérification W3C :
+
+### Page des produits
+
+**Auteur : BALTA Ibrahim**  
+
+Vérification W3C :
+
+### Page économie
+
+**Auteur : ASLAN Semih**  
+
+Vérification W3C :
+
+### Page écologie
+
+**Auteurs : BALTA Ibrahim et VUILLIN Thomas**  
+
+Vérification W3C :
+
+### Page "à propos"
+
+**Auteurs : BARTHOD-MALAT Esteban**  
+
+Vérification W3C :
