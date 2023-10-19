@@ -83,6 +83,10 @@ Vérification W3C :
 
 - SEMIH Aslan
 
+### Style tiles
+
+- VUILLIN Thomas
+
 ### Développement site
 
 Footer : VUILLIN Thomas
