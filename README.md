@@ -50,6 +50,7 @@ Vérification W3C :
 **Auteurs : BARTHOD-MALAT Esteban**  
 
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Festebanbrrr.github.io%2FquanticVision%2Fapropos.html)
+![écran qui vérifie si le document est valide sur W3C](doc/w3c_apropos.png)
 
 
 ## Répartition du travail :
