@@ -5,7 +5,8 @@
 
 html{
   scroll-behavior:smooth;
-  background-color: black;
+  background-color: #1c1c1e;
+  overflow-x: hidden;
 }
 
 #scrollUp
@@ -32,13 +33,6 @@ opacity: 0.5;
 
 }
 
-
-.image-container {
-  display: flex; 
-}
-
-
-
 #text{
   display:flex;
   margin:2%;
@@ -49,7 +43,7 @@ opacity: 0.5;
   padding-top: 1px;
   padding-bottom: 5%;
   overflow: hidden;
-  margin-bottom: 100px;
+  margin-bottom: 25px;
   position: relative;
   z-index: 0;
   margin-left: 10%;
@@ -342,5 +336,8 @@ top: 0;
 height: 15px;
 padding-right: 40px;
 padding-left: 40px;
+}
+.espace{
+  margin-top: 2%;
 }
 
