@@ -87,6 +87,10 @@ Vérification W3C :
 
 - VUILLIN Thomas
 
+### Mise en place du Gitlab / Bitbucket
+
+- ASLAN Semih
+
 ### Développement site
 
 Footer : VUILLIN Thomas
