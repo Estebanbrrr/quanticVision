@@ -8,7 +8,7 @@ body{
 
 .apropos_img{
     position: relative;
-    
+    box-shadow: #0000004d 0px 19px 38px, #00000038 0px 15px 12px;
 }
 
 .topnav {
@@ -180,7 +180,7 @@ img.image{
     top: 79%;
     left: 35%;
     width: 40%;
-    height: 50%;
+    height: auto;
     margin: -16% 20% 20% ;
     padding: 10px;
     border-left: 10px solid #2f435e;
