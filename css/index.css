@@ -19,7 +19,7 @@
 }
 
 #slide1 {
-    background: url(../images/slideun.jpg);
+    background: url(../images/pageaccueil.jpg);
     
 }
 
@@ -116,10 +116,29 @@
   line-height: 40px;
   }
 
+  #ensavoirplus {
+    position: relative;
+    height: 75px;
+    width: auto;
+    margin-top: 200px;
+    margin-left: 680px;
+    opacity: .75;
+    z-index: 5;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  #ensavoirplus:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px #2f435e;
+  }
+
+  
+
   #equipe1 {
     position: absolute;
     margin-top: 200px;
     margin-left: 200px;
+
   }
   
   #equipe2 {
@@ -135,6 +154,8 @@
     margin-top: 200px;
     margin-left: 200px;
   }
+
+
   
   #leurEquipeTitre {
     position: absolute;
@@ -153,6 +174,18 @@
     font-family: 'Louis George Café', sans-serif;
     margin-right: 1075px;
     margin-top: 220px;
+  
+  }
+
+  #leurProduitsTexte {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    font-family: 'Louis George Café', sans-serif;
+    margin-left: 350px;
+    margin-bottom: 250px;
+    border-left: 8px solid #2f435e;
+    padding-left: 20px;
   
   }
   
@@ -194,7 +227,7 @@
     transition: opacity 0.3s ease-in-out;
   }
   
-  #profession {
+  .profession {
     font-size: 42px;
   } 
 
@@ -205,6 +238,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
     margin-bottom: 600px;
+    margin-right: 280px;
   }
 
   .containercard{
@@ -255,22 +289,16 @@
   
   
   .containercard .card .face.face1 .content{
-    opacity: .2;
+    opacity: .3;
     transition:  0.5s;
     text-align: center;
+    
   
   }
   
   .containercard .card:hover .face.face1 .content{
     opacity: 1;
    
-  }
-  
-  .containercard .card .face.face1 .content i{
-    font-size: 3em;
-    color: white;
-    display: inline-block;
-     
   }
   
   .containercard .card .face.face1 .content h3{
@@ -325,4 +353,72 @@
     color: whitesmoke; 
     box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
   }
-  
+
+  #cardlogo1 {
+    height: 6em;
+    width: auto;
+  }
+
+  #cardlogo2 {
+    height: 3em;
+    width: auto;
+  }
+
+  #cardlogo3 {
+    height: 6em;
+    width: auto;
+  }
+
+  .footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }

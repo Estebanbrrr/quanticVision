@@ -1,16 +1,20 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quantic Vision</title>
 
-    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=DM+Sans' rel='stylesheet'>
     <link href="https://fonts.cdnfonts.com/css/louis-george-cafe" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
 
-    <link rel="icon" href="images/qv.ico" />
+    <!--FONT AWESOME (LOGO FOOTER)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="icon" href="images/qv.ico">
     <link rel="stylesheet" href="css/index.css">
 
 </head>
@@ -36,7 +40,7 @@
 
             <div class="logocentral">
                 <img id="logoQV" src="images/qv.png" alt ="Logo QV">
-                <img src="images/quanticvisionlogo.png">
+                <img src="images/quanticvisionlogo.png" alt="Logo Quantic Vision">
             </div>
     
     
@@ -58,18 +62,23 @@
 
         <div class="slides" id="slide2">
 
-            <img id="equipe1" src="images/numeroUn.png">
-            <img id="equipe2" src="images/numeroDeux.png">
-            <img id="equipe3" src="images/numeroTrois.png">
-            
+            <a href="apropos.html">
+              <img id="ensavoirplus" src="images/ensavoirplus.png" alt="Bouton en savoir plus">
+            </a>
+
+
+              <img id="equipe1" src="images/numeroUn.png" alt="Premier membre équipe">
+              <img id="equipe2" src="images/numeroDeux.png" alt="Deuxième membre équipe">
+              <img id="equipe3" src="images/numeroTrois.png" alt="Troisième membre équipe">
+
         
             <p id ="leurEquipeTitre">LEUR <br> ÉQUIPE</p>
         
             <p id ="leurEquipeTexte">Rencontrez les <br> humains derrière <br> les écrans.</p>
         
-            <p id="prenomsEquipe1">Benjamin Diebling <br><span id="profession">RÉALISATEUR</span></p>
-            <p id="prenomsEquipe2">Jean-Marc Rulier  <br><span id="profession">SÉNIOR 3D DATA CAPTURE</span></p>
-            <p id="prenomsEquipe3">Richard Robinson <br><span id="profession">SOCIAL MEDIA MANAGER</span></p>
+            <p id="prenomsEquipe1">Benjamin Diebling <br><span class="profession">RÉALISATEUR</span></p>
+            <p id="prenomsEquipe2">Jean-Marc Rulier  <br><span class="profession">SÉNIOR 3D DATA CAPTURE</span></p>
+            <p id="prenomsEquipe3">Richard Robinson <br><span class="profession">SOCIAL MEDIA MANAGER</span></p>
 
         </div>
 
@@ -78,18 +87,19 @@
 
             <p id ="leurProduitsTitre">LEURS PRODUITS</p>
 
+            <p id ="leurProduitsTexte">Des expériences uniques, <br> où chaque décision façonne votre récit.</p>
+
             <div class="containercard">
                 <div class="card">
                   <div class="face face1">
                     <div class="content">
-                       <i class="fab fa-detroit"></i>            
-                      <h3>Detroit: Become Human</h3>
+                       <img id="cardlogo1" src="images/detroitbecomehuman.png" alt="Detroit carte une">          
                     </div>
                   </div>
                   <div class="face face2">
                     <div class="content">
                       <p> Detroit: Become Human met le destin de l'humanité et des androïdes entre vos mains, en vous plongeant dans un futur proche où les machines sont devenues plus intelligentes que les humains. </p>
-                      <a href="produits.html" type="button">En savoir plus</a>
+                      <a href="produits.html#detroitlien" type="button">En savoir plus</a>
                     </div>
                   </div>
                </div>
@@ -97,14 +107,13 @@
                <div class="card">
                   <div class="face face1">
                     <div class="content">
-                        <i class="fab fa-android"></i>               
-                        <h3>Heavy Rain</h3>
+                        <img id="cardlogo2" src="images/heavyrain.avif" alt="Heavy carte deux">               
                     </div>
                   </div>
                   <div class="face face2">
                     <div class="content">
                       <p> Pendant quatre jours rythmés par des mystères et un suspense insoutenable, vous êtes à la poursuite du « Tueur aux origamis », un meurtrier connu pour laisser de petites figurines de papier plié sur les scènes du crime.</p>
-                      <a href="produits.html" type="button">En savoir plus</a>
+                      <a href="produits.html#heavyrainlien" type="button">En savoir plus</a>
                     </div>
                   </div>
                </div>
@@ -113,8 +122,7 @@
                <div class="card">
                   <div class="face face1">
                     <div class="content">
-                      <i class="fab fa-apple"></i>
-                       <h3>Under the Waves</h3>
+                      <img id="cardlogo3" src="images/underthewaves.png" alt="Under The Waves carte trois">  
                     </div>
                   </div>
                   <div class="face face2">
@@ -127,7 +135,7 @@
              </div>
 
         </div>
-
+          </footer>
 </div>
 
 <script src="js/index.js"></script>
