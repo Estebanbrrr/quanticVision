@@ -98,5 +98,7 @@ Navbar : BALTA Ibrahim
 
 ### Contributeurs
 
+<img alt="Contributeurs" src="doc/contributeurs.png">
+
 
 
