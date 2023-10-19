@@ -245,3 +245,25 @@ body {
   margin:0% 3%;
   }
   }
+
+
+.blocDL {
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.btin {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #44566c;
+    border-radius: 5px;
+}
+
+.btin:hover {
+    background-color: #2f435e;
+    color: white;
+}
