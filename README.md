@@ -31,19 +31,22 @@ Vérification W3C :
 
 **Auteur : BALTA Ibrahim**  
 
-Vérification W3C :
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Festebanbrrr.github.io%2FquanticVision%2Fproduits.html)
+![écran qui vérifie si le document est valide sur W3C](doc/w3c_Produit.png)
 
 ### Page économie
 
 **Auteur : ASLAN Semih**  
 
-Vérification W3C :
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Festebanbrrr.github.io%2FquanticVision%2Feconomie.html)
+![écran qui vérifie si le document est valide sur W3C](doc/w3c_economie.png)
 
 ### Page écologie
 
 **Auteurs : BALTA Ibrahim et VUILLIN Thomas**  
 
-Vérification W3C :
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Festebanbrrr.github.io%2FquanticVision%2Fecologie.html)
+![écran qui vérifie si le document est valide sur W3C](doc/w3c_ecologie.png)
 
 ### Page "à propos"
 
