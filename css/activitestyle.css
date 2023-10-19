@@ -88,7 +88,7 @@ footer {
 
 
 .image-container {
-    display: flex; /* Utilisation de Flexbox pour aligner les images côte à côte */
+    display: flex; 
 }
 
 
