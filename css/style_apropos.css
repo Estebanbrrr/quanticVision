@@ -1,8 +1,7 @@
 body{
-    background-color: #201b2b;
+    background: linear-gradient(to bottom, #201b2b, #000);
     color: white;
-    max-width: 100%;
-    max-height: 100vh;
+
     font-family: 'Dm sans', sans-serif;
     overflow-x: hidden;
     margin: 0;
@@ -25,6 +24,10 @@ h1{
 h2{
     font-family: 'Louis George Café', sans-serif;
     color: #2f435e;
+}
+
+p{
+    font-family: 'Dm sans', sans-serif;
 }
 
 nav{
@@ -228,7 +231,7 @@ div.nav_bar{
     position: absolute;
     width: 50%;
     height: auto;
-    top: 40%;
+    top: 35%;
     padding: 10px;
     text-align: justify;
     margin: 5% 0% 5% 3%;
@@ -238,6 +241,7 @@ div.nav_bar{
 }
 
 .autre_profil{
+    position: absolute;
     text-decoration: none;
     color: white;
 }
@@ -250,6 +254,7 @@ div.nav_bar{
     height: 100vh;
     z-index: -1;
     border-radius: 30%;
+
 }
 
 #slide1 {
@@ -264,6 +269,7 @@ div.nav_bar{
     width: 50%;
     height: 100vh;
     border-radius: 30%;
+
 }
 
 #slide2 {
@@ -298,9 +304,58 @@ div.nav_bar{
 
 
 
+
 .footer{
-    position: absolute;
-    bottom: 0;
     width: 100%;
-    background-color: #2f435e;
-}
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
