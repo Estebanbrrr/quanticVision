@@ -81,7 +81,7 @@ Vérification W3C :
 
 ### Templates
 
-- SEMIH Aslan
+- ASLAN Semih
 
 ### Style tiles
 
