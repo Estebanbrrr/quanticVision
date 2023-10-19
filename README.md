@@ -25,7 +25,7 @@ Pour la conception du site, nous nous sommes inspirés de plusieurs templates co
 
 **Auteur : VUILLIN Thomas**  
 
-Vérification W3C :[Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Festebanbrrr.github.io%2FquanticVision%2Findex.html)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Festebanbrrr.github.io%2FquanticVision%2Findex.html)
 ![écran qui vérifie si le document est valide sur W3C](doc/w3c_index.png)
 
 ### Page des produits
