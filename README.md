@@ -55,3 +55,38 @@ Vérification W3C :
 ## Répartition du travail :
 
 
+### Planification - Diagramme de GANTT
+
+- VUILLIN Thomas
+- BALTA Ibrahim
+
+ 
+### Recherches d'informations - Fiche informative entreprise
+
+- VUILLIN Thomas
+
+### Rapport économique
+
+- ASLAN Semih
+- VUILLIN Thomas
+- BALTA Ibrahim 
+- VOELIN Matteo
+- BARTHOD-MALAT Esteban
+
+### Zoning - Wireframe
+
+- VOELIN Matteo
+- BALTA Ibrahim
+- BARTHOD-MALAT Esteban
+
+### Templates
+
+- SEMIH Aslan
+
+### Développement site
+
+Footer : VUILLIN Thomas
+Navbar : BALTA Ibrahim
+
+
+
