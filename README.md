@@ -52,4 +52,6 @@ Vérification W3C :
 Vérification W3C :
 
 
-## Répartition du travail
+## Répartition du travail :
+
+
