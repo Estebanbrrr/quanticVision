@@ -6,8 +6,6 @@ html {background-color: black}
 }
 
 
-
-
 .footer{
   background:#000;
   padding:30px 0px;
@@ -62,6 +60,9 @@ html {background-color: black}
   }
   }
 
+
+
+  
 .topnav {
   background-color: #333;
   padding-bottom: 1%;
@@ -128,7 +129,7 @@ h2{
 }
 
 .espace{
-  margin-bottom: 38%;
+  margin-bottom: 25%;
 }
 
 body{
@@ -398,9 +399,9 @@ body{
 .imageJeux{
   position: absolute;
   z-index: -1;
-  height: auto;
   width: 100%;
-  top: 0px;
+  height: auto;
+  top: 10px;
   border-bottom: white 3px solid;
   left: 0;
 }
