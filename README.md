@@ -52,7 +52,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 **Auteurs : VOELIN Matteo**  
 
-Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Festebanbrrr.github.io%2FquanticVision%2Feconomie.html)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Festebanbrrr.github.io%2FquanticVision%2Factivites.html)
 ![écran qui vérifie si le document est valide sur W3C](doc/w3c_activites.png)
 
 ### Page "à propos"
