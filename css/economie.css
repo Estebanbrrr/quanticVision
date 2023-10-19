@@ -1,4 +1,4 @@
-.topnav {
+.top-nav-bar {
     background-color: #333;
     padding-bottom: 1%;
     padding-top: 1%;
@@ -12,7 +12,7 @@
     z-index: 999;
   }
     
-  .anav {
+  .nav-bar-a {
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -22,17 +22,17 @@
     padding-right: 70px;
     font-family: 'Louis George Café', sans-serif;
   }
-  .anav:hover { 
+  .nav-bar-a:hover { 
     background-color: #2f435e;
     color: white;
   }
     
-  .anav:active {
+  .nav-bar-a:active {
     background-color: darkblue;
     color: white;
   }
   
-  .anavimg{
+  .nav-bar-img{
     position: relative;
     top: 0px;
     left: -10px;
