@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: #201b2b;
     color: white;
     max-width: 100%;
     max-height: 100vh;
@@ -17,9 +17,14 @@ a.nav{
     color: white;
     
 }
+h1{
+    font-family: 'Louis George Café', sans-serif;
+    color: #2f435e;
+}
 
 h2{
     font-family: 'Louis George Café', sans-serif;
+    color: #2f435e;
 }
 
 nav{
@@ -57,7 +62,7 @@ img.image{
     
 }
 
-div.imgequipe {
+.imgequipe {
     width: 35%;
     background-color: #2f435e;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -67,13 +72,13 @@ div.imgequipe {
     transition: transform .3s ease;
 }
 
-div.imgequipe:hover{
+.imgequipe:hover{
     transition: .5s ease;
     transform: scale(1.03); 
 }
 
   
-div.contenue {
+.contenue {
     text-align: center;
     padding: 10px 20px;
     color: white;
@@ -145,6 +150,7 @@ div.contenue {
     padding: 10px;
     border-left: 10px solid #2f435e;
     border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -152,12 +158,13 @@ div.contenue {
 
 #deux{
     position: relative;
-    left: 5%;
+    left: 3%;
     width: 40%;
     padding: 10px;
     text-align: justify;
     border-right: 10px solid #2f435e;
     border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #trois{
@@ -168,14 +175,15 @@ div.contenue {
     padding: 10px;
     border-radius: 10px;
     border-left: 10px solid #2f435e;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.contenu4{
+.autrepage{
     position: relative;
-    top: 800px;
+    margin-top: 45%;
     width: 100%;
-    height: auto;
-    margin: -10% 1% 1% 1%;
+    
+
 
 }
 
@@ -213,6 +221,7 @@ div.nav_bar{
     text-align: justify;
     border-radius: 10px;
     border-left: 10px solid #2f435e;
+    background-color: rgba(0, 0, 0, 0.5);
   }
 
 
@@ -226,6 +235,7 @@ div.nav_bar{
     margin: 5% 0% 5% 3%;
     border-radius: 10px;
     border-right: 10px solid #2f435e;
+    background-color: rgba(0, 0, 0, 0.5);
   }
 
   .autre_profil{
@@ -283,6 +293,9 @@ div.nav_bar{
     border-bottom: 10px solid #2f435e;
     border-radius: 10px;
     width: 25%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    
 }
 
 
