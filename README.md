@@ -50,3 +50,6 @@ Vérification W3C :
 **Auteurs : BARTHOD-MALAT Esteban**  
 
 Vérification W3C :
+
+
+## Répartition du travail
