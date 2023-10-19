@@ -1,4 +1,4 @@
-# Titre sujet   
+# Quantic Vision   
 
 ## Sujet
 Site WEB : [Quantic Vision](https://estebanbrrr.github.io/quanticVision/)
@@ -13,4 +13,8 @@ Etudiant 5 : [Barthod-Malat Esteban](mailto:esteban.barthod-malat@edu.univ-fcomt
 
 # Présentation du projet
 
-(livrable 2)
+Ce dépôt correspond à un site web créé en HTML/CSS/JS dans le cadre de la SAÉ S1. 05-06 de l'IUT de Belfort-Montbéliard. Le projet prend la forme d'un site informatif concernant l'entreprise française Quantic Dream. Notre site sert de vitrine pour présenter les produits de l'entreprise, son organisation, son fonctionnement économique ainisi que son historique. Vous trouverez dans ce dépôt et sur le site un rapport économique analysant l'aspect économique de Quantic Dream.
+
+## Choix de la conception 
+
+Pour la conception du site, nous nous sommes inspirés de plusieurs 
