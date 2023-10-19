@@ -1,0 +1,181 @@
+html {background-color:black}
+
+*{
+  color: white;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
+  
+  
+  
+    
+  .topnav {
+    background-color: #333;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    opacity: 0.95 ;
+    overflow: hidden;
+    text-align: center;
+    position: fixed;
+    top:0px;
+    right: 0px;
+    left: 0px;
+    z-index: 999;
+  }
+    
+  .anav {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: 'Louis George Café', sans-serif;
+  }
+  .anav:hover { 
+    background-color: #2f435e;
+    color: white;
+  }
+    
+  .anav:active {
+    background-color: darkblue;
+    color: white;
+  }
+  
+  .anavimg{
+    position: relative;
+    top: 0px;
+    left: -10px;
+    height: 15px;
+  }
+  
+  .logo{
+    position: relative;
+    top: 0;
+    height: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+
+.espace{
+    margin-bottom: 10%;
+}
+
+
+h2{
+    font-size: 40px;
+    padding: 30px;
+
+    margin-bottom: 5%;
+    margin-right: 45%;
+
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    display: inline-block;
+    border-left: #2f435e solid 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+
+}
+
+
+
+.bloc{
+    padding-top: 1px;
+    padding-bottom: 5%;
+    overflow: hidden;
+    margin-bottom: 100px;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.texte{
+    position: relative;
+    margin-left: 60%;
+  
+    font-size: 20px;
+    z-index: 1;
+    text-align: justify;
+    border-left: #2f435e 8px solid;
+    background-color: rgba(0, 0, 0, 0.5);
+  
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+
+.image{
+    float: left;
+    z-index: 1;
+    width: 800px;
+    height: auto;
+    border: white 3px solid;
+}
+
+.videoFond{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -9;
+    width: 100%;
+    height: auto;
+    opacity: 0.2;
+}
