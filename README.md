@@ -93,7 +93,7 @@ Vérification W3C :
 
 ### Développement site
 
-Footer : VUILLIN Thomas
+Footer : VUILLIN Thomas <br>
 Navbar : BALTA Ibrahim
 
 ### Contributeurs
