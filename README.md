@@ -48,6 +48,13 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Festebanbrrr.github.io%2FquanticVision%2Fecologie.html)
 ![écran qui vérifie si le document est valide sur W3C](doc/w3c_ecologie.png)
 
+### Page activités
+
+**Auteurs : VOELIN Matteo**  
+
+Vérification W3C : 
+
+
 ### Page "à propos"
 
 **Auteurs : BARTHOD-MALAT Esteban**  
