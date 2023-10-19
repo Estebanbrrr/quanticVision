@@ -1,8 +1,7 @@
-Site WEB : https://estebanbrrr.github.io/quanticVision/
 # Titre sujet   
 
 ## Sujet
-Quantic Vision : https://login.github.io/quanticVision/
+[Quantic Vision](https://estebanbrrr.github.io/quanticVision/)
 
 ## Membres du groupe :
 
