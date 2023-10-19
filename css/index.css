@@ -227,7 +227,7 @@
     transition: opacity 0.3s ease-in-out;
   }
   
-  #profession {
+  .profession {
     font-size: 42px;
   } 
 
