@@ -113,8 +113,14 @@ Navbar : BALTA Ibrahim
 
 <img alt="Contributeurs" src="doc/contributeurs.png">
 
+
 ### Notre planning prévisionnel
 
 <img alt="gant_1" src="doc/gant1.png">
+
+
+### Notre planning réalisé
+
+<img alt="gant_2" src="doc/gant2.png">
 
 
