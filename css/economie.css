@@ -59,6 +59,9 @@ p {
     font-family: 'DM Sans', sans-serif;
     color: #ececec;
 }
+.couleurArrierePlan {
+    background-color: #1c1c1e;
+}
 .imgCouverture {
     position: absolute;
     z-index: -1;
