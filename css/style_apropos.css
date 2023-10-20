@@ -9,6 +9,11 @@ body{
 .apropos_img{
     position: relative;
     box-shadow: #0000004d 0px 19px 38px, #00000038 0px 15px 12px;
+    border-bottom: 3px solid white;
+}
+
+.espace{
+    margin-top: 20%;
 }
 
 .topnav {
