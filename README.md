@@ -121,6 +121,6 @@ Navbar : BALTA Ibrahim
 
 ### Notre planning réalisé
 
-<img alt="gant_2" src="doc/gant2.png">
+<img alt="gant_2" src="doc/gant2.jpg">
 
 
