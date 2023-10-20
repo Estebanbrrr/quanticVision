@@ -7,14 +7,20 @@ body{
 }
 
 .apropos_img{
-    position: relative;
-    box-shadow: #0000004d 0px 19px 38px, #00000038 0px 15px 12px;
-    border-bottom: 3px solid white;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    top: 10px;
+    border-bottom: white 3px solid;
+    left: 0;
+
 }
 
+
 .espace{
-    margin-top: 20%;
-}
+    margin-bottom: 0%;
+}  
 
 .topnav {
     background-color: #333;
@@ -221,7 +227,7 @@ img.image{
 
 .autrepage{
     position: absolute;
-    margin-top: 130%;
+    margin-top: 150%;
     width: 100%; 
     height: auto;
 
@@ -303,11 +309,14 @@ div.nav_bar{
     height: 100vh;
     z-index: -1;
     border-radius: 30%;
+    
 
 }
 
 #slide1 {
     background: url(../images/bureau.jpg);
+    border-radius: 30%;
+    clip-path: polygon(0 46%, 100% 46%, 100% 100%, 0% 100%);
     
 }
 
