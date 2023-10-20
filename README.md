@@ -19,11 +19,11 @@ Ce dépôt correspond à un site web créé en HTML/CSS/JS dans le cadre de la S
 
 Pour la conception du site, nous nous sommes inspirés de plusieurs templates comme celui d'[Aquavist](https://templatekit.jegtheme.com/aquavist/?storefront=envato-elements), ou encore celui d'[Inspiro Lite](https://demo.wpzoom.com/inspiro-lite/). Nous avons aussi pris comme référence, une charte graphique créé par nos soins et téléchargeable [ici](doc/style_tiles.pdf). Vous pouvez retrouvez nos zoning/wireframes ci-dessous :
 
-[Wireframe Page Accueil](doc/Wireframe1)
-<br>[Wireframe Page](doc/Wireframe2)
+[Wireframe Page Accueil](doc/Wireframe1.png)
+<br>[Wireframe Page](doc/Wireframe2.png)
 
-[Zoning Page Accueil](doc/Zoning1)
-<br>[Zoning Page](doc/Zoning2)
+[Zoning Page Accueil](doc/Zoning1.png)
+<br>[Zoning Page](doc/Zoning2.png)
 
 ## Développement Site Web et Validation des pages
 
