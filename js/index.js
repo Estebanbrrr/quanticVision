@@ -36,4 +36,4 @@ function slideEquipe() {
 
 }
 
-setInterval(slideEquipe, 7000);
+setInterval(slideEquipe, 6000);
